@@ -6,9 +6,9 @@ This tool extracts the eco, tech and fleet power for each default empire from a 
 
 Download/Clone this repo.
 Then in the repo directory install dependencies with
-```pip install -r requirements```
+```pip install -r requirements.txt```
 
 # usage
 
-Use ```python stats.py <file_to_stellaris_save.sav>``` to extract the stats.
+Use ```python stats.py <path_to_stellaris_save.sav>``` to extract the stats.
 On first launch it will download https://github.com/ErikKalkoken/stellaris-tool for converting saves to json.
